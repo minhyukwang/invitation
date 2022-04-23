@@ -1,9 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
+// const nextConfig = {
+//   reactStrictMode: true,
+// };
 
-module.exports = nextConfig;
+module.exports = {
+  eactStrictMode: true,
+  assetPrefix:
+    process.env.NODE_ENV === "production"
+      ? "https://minhyukwang.github.io/invitation/"
+      : "",
+};
 
 // module.exports = {
 //   async rewrites() {
