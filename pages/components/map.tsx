@@ -11,8 +11,8 @@ function Map({ latitude, longitude }: MapProps) {
     const mapScript = document.createElement("script");
 
     mapScript.async = true;
-    // mapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAOMAP_APPKEY}&autoload=false`;
-    mapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=c54994f9665b63d2088c1229128b9355&autoload=false`;
+    mapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAOMAP_APPKEY}&autoload=false`;
+    // mapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=c54994f9665b63d2088c1229128b9355&autoload=false`;
 
     document.head.appendChild(mapScript);
 
