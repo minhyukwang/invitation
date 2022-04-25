@@ -7,11 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy":"gh-pages -d .next",
-    "predeploy":"npm run build",
-    "vercel-deploy":"next build && next export"
+    "deploy": "gh-pages -d .next",
+    "predeploy": "npm run build",
+    "vercel-deploy": "next build && next export"
   },
   "dependencies": {
+    "@emotion/styled": "^11.8.1",
     "gh-pages": "^3.2.3",
     "next": "^12.1.4",
     "react": "^18.0.0-rc.3",

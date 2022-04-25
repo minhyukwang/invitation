@@ -1,3 +1,4 @@
+import styled from "@emotion/styled";
 import { useEffect } from "react";
 
 interface MapProps {
