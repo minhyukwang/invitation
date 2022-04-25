@@ -5,13 +5,24 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useEffect } from "react";
 import Map from "./components/map";
+import {
+  AnnotationIcon,
+  GlobeAltIcon,
+  LightningBoltIcon,
+  ScaleIcon,
+} from "@heroicons/react/outline";
+import Nevigator from "./components/navigator";
+import Main from "./components/main";
+import Detail from "./components/detail";
+
+/* This example requires Tailwind CSS v2.0+ */
 
 const Home: NextPage = () => {
   return (
     <div>
-      <div className="bg-[url('/main.jpeg')] w-full h-[800px] bg-cover bg-no-repeat bg-center">
-        <h1 className="font-['MalgunGothic']">초대</h1>
-      </div>
+      <Nevigator />
+      <Main />
+      <Detail />
       <div className="w-3/4 h-3/4">
         <Map latitude={35.229635} longitude={128.683258} />
       </div>
