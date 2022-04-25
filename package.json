@@ -12,6 +12,7 @@
     "vercel-deploy": "next build && next export"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "gh-pages": "^3.2.3",
     "next": "^12.1.4",
