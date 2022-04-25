@@ -3,7 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import styled from "@emotion/styled";
 import { useEffect } from "react";
 import Map from "./components/map";
 
