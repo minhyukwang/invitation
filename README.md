@@ -1,3 +1,3 @@
-# Invitation App
+# Treenami Portfolio App
 
-Next.JS, KakaoMap Link
+Next JS, KakaoMap Link
