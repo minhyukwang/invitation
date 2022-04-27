@@ -140,7 +140,6 @@ export default function Main() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('/main.jpeg')] w-full h-[800px] bg-cover bg-no-repeat bg-center"></div>
     </div>
   );
 }

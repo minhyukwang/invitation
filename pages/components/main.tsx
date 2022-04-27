@@ -1,76 +1,40 @@
-import type { NextPage } from "next";
-import Link from "next/link";
-import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { useEffect } from "react";
-import {
-  AnnotationIcon,
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
-} from "@heroicons/react/outline";
-const features = [
-  {
-    name: "Competitive exchange rates",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: GlobeAltIcon,
-  },
-  {
-    name: "No hidden fees",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: ScaleIcon,
-  },
-  {
-    name: "Transfers are instant",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
-  },
-  {
-    name: "Mobile notifications",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
-  },
-];
+
 export default function Main() {
   return (
     <div>
-      <div className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center">
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
-              Transactions
+      <div className="bg-white">
+        <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <div className="">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              PROJECT. GARGEN
             </h2>
-            <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              A better way to send money
+            <p className="text-justify mt-4 text-gray-500">
+              인생을 빗댄 좋은 말들이 쏟아진다. 나는 정원이 그러하다. 작은
+              정원이든 규모가 큰 정원이든, 어떤 꽃을 심고 무슨 나무를 심을
+              것인가는 오롯이 자신의 선택에 달렸다. 늦깎이로 국문학을 공부하고
+              시를 쓰는 나무를 심었고, 오랜 시간 동안 그림을 그리는 꽃을 심었다.
+              숱한 시집이나 책들 속에 하나를 더 할 필요는 없지만, 마음속
+              답답하고 해소되지 않는 갈증을 어쩌지를 못하고 있다. 깊은 상념에
+              빠질 수 있는 시 쓰는 시간이 소중하고, 집중해서 그림 그리는 시간이
+              보배롭다. 긴 시간 살면서 외딴 섬같이 나한테 집중할 수 있는 좋은
+              시간들이다. 조금 외로워도 되고 조금 고독해도 행복한 그런 시간이다.
+              사계절을 살다 어느 순간 장면처럼 ‘사진 찍으면 좋겠다.’ ‘그림
+              그리면 좋겠다.’하는 순간이 있다. 한참을 넋 놓고 바라다 사진으로
+              옮겨와 다음날 스케치를 하면 그날의 기억이 재생되어 또 한 번의
+              여행을 경험한다. 여러 경험이 내 정원의 다양한 식물들이 되어 풍부한
+              숲을 이루고 있다. 그 속에서 숨 쉬는 나는 행복을 안다.
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
-            </p>
+            <br />
+            <p className="text-gray-500 text-right">- 김나미(NAMI)</p>
           </div>
-          <div className="mt-10">
-            <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-              {features.map((feature) => (
-                <div key={feature.name} className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                      <feature.icon className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
-                      {feature.name}
-                    </p>
-                  </dt>
-                  <dd className="mt-2 ml-16 text-base text-gray-500">
-                    {feature.description}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+          <div>
+            <Image
+              src="/main.jpg"
+              alt="Picture of the author"
+              width={670}
+              height={660}
+            />
           </div>
         </div>
       </div>
