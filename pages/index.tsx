@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       <Main />
       <Detail />
       <div className="w-3/4 h-3/4">
-        <Map latitude={35.229635} longitude={128.683258} />
+        <Map latitude={35.22943806} longitude={128.68307019} />
       </div>
     </div>
   );
