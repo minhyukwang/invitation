@@ -4,11 +4,21 @@ export default function Main() {
   return (
     <div>
       <div className="bg-white">
-        <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           <div className="">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl">
               PROJECT. GARGEN
             </h2>
+            <div className="mt-5">
+              <Image
+                src="/main.jpg"
+                alt="Picture of the author"
+                width={570}
+                height={560}
+              />
+            </div>
+          </div>
+          <div>
             <p className="text-justify mt-4 text-gray-500">
               인생을 빗댄 좋은 말들이 쏟아진다. 나는 정원이 그러하다. 작은
               정원이든 규모가 큰 정원이든, 어떤 꽃을 심고 무슨 나무를 심을
@@ -27,14 +37,6 @@ export default function Main() {
             </p>
             <br />
             <p className="text-gray-500 text-right">- 김나미(NAMI)</p>
-          </div>
-          <div>
-            <Image
-              src="/main.jpg"
-              alt="Picture of the author"
-              width={670}
-              height={660}
-            />
           </div>
         </div>
       </div>
