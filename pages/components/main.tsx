@@ -6,7 +6,7 @@ export default function Main() {
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           <div className="">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+            <h2 className="font-bold tracking-tight text-gray-900 text-2xl">
               PROJECT. GARGEN
             </h2>
             <div className="mt-5">
