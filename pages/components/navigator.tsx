@@ -27,9 +27,9 @@ export default function Nevigator() {
                   <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
-                      <XIcon className="block h-6 w-6" aria-hidden="true" />
+                      <XIcon className="block h-7 w-7" aria-hidden="true" />
                     ) : (
-                      <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                      <MenuIcon className="block h-7 w-7" aria-hidden="true" />
                     )}
                   </Disclosure.Button>
                 </div>
@@ -53,7 +53,7 @@ export default function Nevigator() {
                     </div>
                   </div>
                   <div className="hidden sm:block sm:ml-6 pt-[26px]">
-                    <div className="flex space-x-4">
+                    <div className="flex mt-2 space-x-4">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
