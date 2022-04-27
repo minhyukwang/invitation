@@ -17,14 +17,14 @@ function classNames(...classes: any) {
 export default function Nevigator() {
   return (
     <div>
-      <Disclosure as="nav" className="bg-emerald-900">
+      <Disclosure as="nav" className="bg-white">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
               <div className="relative flex items-center justify-between h-16">
                 <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -35,17 +35,17 @@ export default function Nevigator() {
                 </div>
                 <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex-shrink-0 flex items-center">
-                    <div className="pb-2">
+                    <div className="pt-4">
                       <Image
-                        src="/NAMU-logo-white.png"
+                        src="/namu-logo.png"
                         alt="Picture of the author"
                         width={55}
                         height={55}
                       />
                     </div>
-                    <div className="pb-2 -ml-4">
+                    <div className="pt-3 -ml-6">
                       <Image
-                        src="/NAMI-logo-white.png"
+                        src="/nami-logo.png"
                         alt="Picture of the author"
                         width={130}
                         height={80}
@@ -61,7 +61,7 @@ export default function Nevigator() {
                           className={classNames(
                             item.current
                               ? "bg-gray-900 text-white"
-                              : "text-gray-300 hover:bg-emerald-700 hover:text-white",
+                              : "text-gray-900 hover:text-gray-400",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
@@ -85,7 +85,7 @@ export default function Nevigator() {
                     className={classNames(
                       item.current
                         ? "bg-gray-900 text-white"
-                        : "text-gray-300 hover:bg-emerald-700 hover:text-white",
+                        : "text-gray-900 hover:text-gray-400",
                       "block px-3 py-2 rounded-md text-base font-medium"
                     )}
                     aria-current={item.current ? "page" : undefined}
