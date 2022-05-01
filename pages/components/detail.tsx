@@ -89,7 +89,7 @@ export default function Main() {
                       {callout.name}
                     </a>
                   </h3>
-                  <p className="text-sm text-justify  font-light text-gray-900">
+                  <p className="text-sm mt-1.5 font-light text-justify italic text-gray-400">
                     {callout.description}
                   </p>
                 </div>
