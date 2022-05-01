@@ -14,13 +14,16 @@ export default function Main() {
               <Image
                 src="/main.jpg"
                 alt="Picture of the author"
-                width={570}
-                height={560}
+                width={415}
+                height={545}
               />
             </div>
+            <span className="text-justify text-sm italic text-gray-500">비비추(정갈한 수줍음)</span>
+            <span className="text-justify ml-4 text-sm italic text-gray-400">39.5 X 52.5cm</span>
+            <span className="text-justify ml-4 text-sm italic text-gray-400">Watercolor</span>            
           </div>
           <div>
-            <p className="text-justify mt-4 text-gray-500">
+            <p className="text-justify mt-4 text-gray-700">
               인생을 빗댄 좋은 말들이 쏟아진다. 나는 정원이 그러하다. 작은
               정원이든 규모가 큰 정원이든, 어떤 꽃을 심고 무슨 나무를 심을
               것인가는 오롯이 자신의 선택에 달렸다. 늦깎이로 국문학을 공부하고
