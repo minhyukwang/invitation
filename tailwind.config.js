@@ -5,10 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        main: "url('/main.jpeg')",
-      },
+      // backgroundImage: {
+      //   main: "url('/main.jpeg')",
+      // },
       fontFamily: {
+        AlegreyaSans: ["Alegreya Sans", "sans-serif"],
         MalgunGothic: ["Malgun Gothic"],
       },
     },

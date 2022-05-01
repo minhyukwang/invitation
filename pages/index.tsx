@@ -23,8 +23,18 @@ const Home: NextPage = () => {
       <Nevigator />
       <Main />
       <Detail />
-      <div className="w-3/4 h-3/4">
-        <Map latitude={35.22943806} longitude={128.68307019} />
+      <div className="">
+        <div className="max-w-2xl mx-auto px-2 grid items-center grid-cols-1 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
+            PLACE
+          </h4>
+        </div>
+        <div className="max-w-2xl mx-auto py-10 px-2 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <Map latitude={35.22943806} longitude={128.68307019} />
+          <div>
+            <span className="text-justify mt-4 text-gray-500">오시는 길</span>
+          </div>
+        </div>
       </div>
     </div>
   );

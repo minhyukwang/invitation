@@ -6,10 +6,11 @@ export default function Main() {
       <div className="bg-white">
         <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           <div className="">
-            <h2 className="font-bold tracking-tight text-gray-900 text-2xl">
-              PROJECT. GARGEN
-            </h2>
-            <div className="mt-5">
+            {/* <h4 className="font-['AlegreyaSans'] font-bold tracking-tight text-gray-900 text-xl"> */}
+            <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
+              GARDEN
+            </h4>
+            <div className="mt-3">
               <Image
                 src="/main.jpg"
                 alt="Picture of the author"
