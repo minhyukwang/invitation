@@ -29,13 +29,13 @@ const features = [
 const callouts = [
   {
     name: "백합(우아한 그리움)",
-    description: "Lily(Elegant Missing)",
+    description: "Lily(Elegant Missing), Watercolor",
     imageSrc: "/beauty_miss.jpg",
     href: "#",
   },
   {
     name: "사랑이 송이송이",
-    description: "Journals and note-taking",
+    description: "Journals and note-taking, Watercolor",
     imageSrc: "/cuty_love.jpg",
     imageAlt:
       "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
@@ -43,14 +43,14 @@ const callouts = [
   },
   {
     name: "삶은 꿈같아",
-    description: "Daily commute essentials",
+    description: "Daily commute essentials, Watercolor",
     imageSrc: "/likedream.jpg",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "#",
   },
   {
     name: "5월 신부",
-    description: "Daily commute essentials",
+    description: "Daily commute essentials, Watercolor",
     imageSrc: "/may_princess.jpg",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "#",
@@ -78,13 +78,13 @@ export default function Main() {
                       className="w-full h-full object-center object-cover"
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
+                  <h3 className="mt-6 text-base font-semibold text-gray-900">
                     <a href={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}
                     </a>
                   </h3>
-                  <p className="text-base font-semibold text-gray-900">
+                  <p className="text-sm font-light text-gray-900">
                     {callout.description}
                   </p>
                 </div>
