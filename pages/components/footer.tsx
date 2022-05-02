@@ -6,19 +6,19 @@ export default function Footer() {
       <div>
         <div className="text-center">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2022 <a className="hover:underline">TreeNami Studio</a>. All
+            © 2022 <a className="hover:underline cursor-pointer">TreeNami Studio</a>. All
             Rights Reserved.
           </span>
         </div>
         <div>
           <ul className="justify-center flex flex-wrap items-center mt-2 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
+              <a href="#" className="mr-4 hover:underline cursor-pointer md:mr-6 ">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="#" className="hover:underline cursor-pointer">
                 Contact
               </a>
             </li>
