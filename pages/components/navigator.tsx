@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const navigation = [
   { name: "PROJECT GARDEN", href: "/", current: false },
-  { name: "ABOUT", href: "/about", current: false },
+  { name: "EXHIBITIONS", href: "/exhibitions", current: false },
   { name: "CONTACT", href: "/contact", current: false },
 ];
 
