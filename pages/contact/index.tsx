@@ -25,6 +25,18 @@ const Contact: NextPage = () => {
           </div>
         </div>
         <div className="flex-col pt-20 py-6">
+          <div className="mb-4">
+            <div className="mr-1 text-gray-700 font-medium">
+              출생 : 경남 산청
+            </div>
+            <div className="mr-1 text-gray-700 font-medium">
+              학력 : 한국방송통신대학교 국어국문학과
+            </div>
+            <div className="mr-1 text-gray-700 font-medium">개인전 : 1회</div>
+            <div className="mr-1 text-gray-700 font-medium">
+              수상 : 2020 경상남도전 입상외 다수
+            </div>
+          </div>
           <div className="flex">
             <div className="mr-1 text-gray-700 font-medium">e-mail</div>
             <svg

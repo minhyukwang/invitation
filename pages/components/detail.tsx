@@ -58,7 +58,7 @@ const callouts = [
     href: "/pictures/1",
   },
   {
-    name: "웃음 둘, 44.0×29.5cm Watercolor",
+    name: "기대 둘, 44.0×29.5cm Watercolor",
     description:
       "자목련 두 송이가 나를 보고 방긋 웃는다. 꽃도 웃고 나도 웃고 자목련을 그리는 내내 웃는다.",
     imageSrc: "/smile_two.jpeg",
@@ -85,7 +85,7 @@ export default function Main() {
                           src={callout.imageSrc}
                           alt={callout.imageAlt}
                           width="700"
-                          height="600"
+                          height="620"
                           // className="w-full h-full object-center object-cover"
                         />
                       </a>
