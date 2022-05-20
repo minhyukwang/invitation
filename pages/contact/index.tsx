@@ -8,7 +8,7 @@ const Contact: NextPage = () => {
     <div>
       <Nevigator />
       <div className="max-w-2xl mx-auto py-20 px-20 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-2xl lg:px-8 lg:grid-cols-2">
-        <div className="ml-20">
+        <div className="ml-16">
           <div className="h-32 w-32 rounded-full bg-slate-500 overflow-hidden ">
             <Image
               src="/profile3.jpg"
@@ -24,7 +24,7 @@ const Contact: NextPage = () => {
             </span>
           </div>
         </div>
-        <div className="flex-col ml-[40px]">
+        <div className="flex-col ml-[30px]">
           <div className="mb-4">
             <div className="mr-1 text-gray-700 text-sm">출생 : 경남 산청</div>
             <div className="mr-1 text-gray-700 text-sm">
