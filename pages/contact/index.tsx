@@ -11,7 +11,7 @@ const Contact: NextPage = () => {
         <div>
           <div className="h-32 w-32 rounded-full bg-slate-500 overflow-hidden">
             <Image
-              src="/profile.jpg"
+              src="/profile3.jpg"
               alt="Picture of the author"
               width={200}
               height={200}
