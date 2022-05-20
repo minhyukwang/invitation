@@ -85,7 +85,7 @@ export default function Main() {
                           src={callout.imageSrc}
                           alt={callout.imageAlt}
                           width="700"
-                          height="620"
+                          height="650"
                           // className="w-full h-full object-center object-cover"
                         />
                       </a>
