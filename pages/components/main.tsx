@@ -4,12 +4,10 @@ export default function Main() {
   return (
     <div>
       <div className="bg-white">
-        <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-6xl lg:px-8 lg:grid-cols-2">
           <div className="">
             {/* <h4 className="font-['AlegreyaSans'] font-bold tracking-tight text-gray-900 text-xl"> */}
-            <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
-              GARDEN
-            </h4>
+
             <div className="mt-3">
               <Image
                 src="/main.jpg"
@@ -18,11 +16,25 @@ export default function Main() {
                 height={545}
               />
             </div>
-            <span className="text-justify text-sm italic text-gray-500">비비추(정갈한 수줍음)</span>
-            <span className="text-justify ml-4 text-sm italic text-gray-400">39.5 X 52.5cm</span>
-            <span className="text-justify ml-4 text-sm italic text-gray-400">Watercolor</span>            
+            <span className="text-justify text-sm italic text-gray-500">
+              비비추(정갈한 수줍음)
+            </span>
+            <span className="text-justify ml-4 text-sm italic text-gray-400">
+              39.5 X 52.5cm
+            </span>
+            <span className="text-justify ml-4 text-sm italic text-gray-400">
+              Watercolor
+            </span>
           </div>
-          <div>
+
+          <div className="mt-10">
+            <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
+              GARDEN(정원)
+            </h4>
+            <div className="mt-0.5 text-gray-700 font-medium">
+              제1회 김나미 개인전
+            </div>
+
             <p className="text-justify mt-4 text-gray-700">
               인생을 빗댄 좋은 말들이 쏟아진다. 나는 정원이 그러하다. 작은
               정원이든 규모가 큰 정원이든, 어떤 꽃을 심고 무슨 나무를 심을
@@ -39,8 +51,13 @@ export default function Main() {
               여행을 경험한다. 여러 경험이 내 정원의 다양한 식물들이 되어 풍부한
               숲을 이루고 있다. 그 속에서 숨 쉬는 나는 행복을 안다.
             </p>
+
             <br />
             <p className="text-gray-500 text-right">- 김나미(NAMI)</p>
+            {/* <div className=" text-right flex-col pt-5 py-6">
+              <div>성산아트홀 제6전시실</div>
+              <div>2022.06.01 수 - 06.06 월</div>
+            </div> */}
           </div>
         </div>
       </div>
