@@ -8,8 +8,8 @@ const Contact: NextPage = () => {
     <div>
       <Nevigator />
       <div className="max-w-2xl mx-auto py-20 px-20 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-2xl lg:px-8 lg:grid-cols-2">
-        <div>
-          <div className="h-32 w-32 rounded-full bg-slate-500 overflow-hidden">
+        <div className="ml-28">
+          <div className="h-32 w-32 rounded-full bg-slate-500 overflow-hidden ">
             <Image
               src="/profile3.jpg"
               alt="Picture of the author"
@@ -24,21 +24,19 @@ const Contact: NextPage = () => {
             </span>
           </div>
         </div>
-        <div className="flex-col pt-20 py-6">
+        <div className="flex-col ml-[60px]">
           <div className="mb-4">
-            <div className="mr-1 text-gray-700 font-medium">
-              출생 : 경남 산청
-            </div>
-            <div className="mr-1 text-gray-700 font-medium">
+            <div className="mr-1 text-gray-700 text-sm">출생 : 경남 산청</div>
+            <div className="mr-1 text-gray-700 text-sm">
               학력 : 한국방송통신대학교 국어국문학과
             </div>
-            <div className="mr-1 text-gray-700 font-medium">개인전 : 1회</div>
-            <div className="mr-1 text-gray-700 font-medium">
+            <div className="mr-1 text-gray-700 text-sm">개인전 : 1회</div>
+            <div className="mr-1 text-gray-700 text-sm">
               수상 : 2020 경상남도전 입상외 다수
             </div>
           </div>
           <div className="flex">
-            <div className="mr-1 text-gray-700 font-medium">e-mail</div>
+            <div className="mr-1 text-gray-700 text-sm">e-mail</div>
             <svg
               className="w-6 h-6"
               fill="currentColor"
