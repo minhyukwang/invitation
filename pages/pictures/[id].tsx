@@ -75,26 +75,26 @@ const Picture: NextPage = () => {
   const imageArr = callouts.filter((callout) => callout.imageSrc === location);
   const imageObj = imageArr[0];
   return (
-    // <Layout canGoBack>
-    <div className=" -mt-12 flex h-screen items-center justify-center">
-      <div className="h-72 w-full bg-slate-100 ">
-        <Image
-          src={location}
-          alt="Picture of the author"
-          width={750}
-          height={435}
-        />
-        <div className="px-4">
-          <span className="text-justify text-sm italic text-gray-500">
-            {imageObj.name}
-          </span>
-          <p className="text-sm mt-2 font-light text-justify text-slate-900">
-            {imageObj.description}
-          </p>
+    <>
+      <div className=" -mt-12 flex h-screen items-center justify-center">
+        <div className="h-72 w-full bg-slate-100 ">
+          <Image
+            src={location}
+            alt="Picture of the author"
+            width={750}
+            height={435}
+          />
+          <div className="px-4">
+            <span className="text-justify text-sm italic text-gray-500">
+              {imageObj.name}
+            </span>
+            <p className="text-sm mt-2 font-light text-justify text-slate-900">
+              {imageObj.description}
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    // </Layout>
+    </>
   );
 };
 
