@@ -68,7 +68,7 @@ const callouts = [
   },
 ];
 
-const Picture: NextPage = (callouts) => {
+const Picture: NextPage = () => {
   const router = useRouter();
   const { id } = router.query;
   const location = `/${id}`;
@@ -86,10 +86,10 @@ const Picture: NextPage = (callouts) => {
           />
           <div className="px-4">
             <span className="text-justify text-sm italic text-gray-500">
-              {imageObj.name}
+              {imageObj != null ? imageObj.name : ""}
             </span>
             <p className="text-sm mt-2 font-light text-justify text-slate-900">
-              {imageObj.description}
+              {imageObj != null ? imageObj.description : ""}
             </p>
           </div>
         </div>
