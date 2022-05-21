@@ -77,12 +77,12 @@ const Picture: NextPage = () => {
   return (
     <>
       <div className=" -mt-12 flex h-screen items-center justify-center">
-        <div className="h-72 w-full bg-slate-100 ">
+        <div className="h-72 w-full">
           <Image
             src={location}
             alt="Picture of the author"
             width={750}
-            height={435}
+            height={535}
           />
           <div className="px-4">
             <span className="text-justify text-sm italic text-gray-500">
