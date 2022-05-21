@@ -8,7 +8,7 @@ const Contact: NextPage = () => {
     <div>
       <Nevigator />
       <div className="max-w-2xl mx-auto py-20 px-20 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-2xl lg:px-8 lg:grid-cols-2">
-        <div className="ml-16">
+        <div className="">
           <div className="h-32 w-32 rounded-full bg-slate-500 overflow-hidden ">
             <Image
               src="/profile3.jpg"
@@ -18,13 +18,13 @@ const Contact: NextPage = () => {
               className="w-full h-full"
             ></Image>
           </div>
-          <div className="ml-2 mt-3">
+          <div className="mt-3">
             <span className="py-3 text-slate-700 text-sm">
               김나미(NAMI KIM)
             </span>
           </div>
         </div>
-        <div className="flex-col ml-[30px]">
+        <div className="flex-col ">
           <div className="mb-4">
             <div className="mr-1 text-gray-700 text-sm">출생 : 경남 산청</div>
             <div className="mr-1 text-gray-700 text-sm">
