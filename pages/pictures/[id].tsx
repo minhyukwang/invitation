@@ -86,7 +86,7 @@ const Picture: NextPage = () => {
         />
         <div className="px-4">
           <span className="text-justify text-sm italic text-gray-500">
-            {/* {imageObj.name} */}
+            {imageObj.name}
           </span>
           <p className="text-sm mt-2 font-light text-justify text-slate-900">
             {imageObj.description}
