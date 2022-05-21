@@ -68,7 +68,7 @@ const callouts = [
   },
 ];
 
-const Picture: NextPage = () => {
+const Picture: NextPage = (callouts) => {
   const router = useRouter();
   const { id } = router.query;
   const location = `/${id}`;
