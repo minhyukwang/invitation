@@ -4,7 +4,7 @@ export default function Place() {
   return (
     <div>
       <div className="max-w-2xl mx-auto px-6 grid items-center grid-cols-1 gap-x-8 sm:px-6 lg:max-w-6xl lg:px-8 lg:grid-cols-2">
-        <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl ml-2">
+        <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
           PLACE
         </h4>
       </div>

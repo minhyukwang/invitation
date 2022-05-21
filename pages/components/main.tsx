@@ -8,7 +8,7 @@ export default function Main() {
           <div className="">
             {/* <h4 className="font-['AlegreyaSans'] font-bold tracking-tight text-gray-900 text-xl"> */}
 
-            <div className="mt-3">
+            <div className="mt-3 px-4">
               <Image
                 src="/main.jpg"
                 alt="Picture of the author"
@@ -16,18 +16,20 @@ export default function Main() {
                 height={545}
               />
             </div>
-            <span className="text-justify text-sm italic text-gray-500">
-              비비추(정갈한 수줍음)
-            </span>
-            <span className="text-justify ml-4 text-sm italic text-gray-400">
-              39.5 X 52.5cm
-            </span>
-            <span className="text-justify ml-4 text-sm italic text-gray-400">
-              Watercolor
-            </span>
+            <div className="px-4">
+              <span className="text-justify text-sm italic text-gray-500">
+                비비추(정갈한 수줍음)
+              </span>
+              <span className="text-justify ml-4 text-sm italic text-gray-400">
+                39.5 X 52.5cm
+              </span>
+              <span className="text-justify ml-4 text-sm italic text-gray-400">
+                Watercolor
+              </span>
+            </div>
           </div>
 
-          <div className="mt-10">
+          <div className="mt-10 px-4">
             <h4 className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">
               GARDEN(정원)
             </h4>
