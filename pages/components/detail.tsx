@@ -32,11 +32,11 @@ const callouts = [
   //   imageSrc: "/lovelove.jpeg",
   //   href: "/pictures/lovelove.jpeg",
   // },
-  {
-    name: "미소 둘, 44.0×29.5cm Watercolor",
-    imageSrc: "/smile_two.jpeg",
-    href: "/pictures/smile_two.jpeg",
-  },
+  // {
+  //   name: "미소 둘, 44.0×29.5cm Watercolor",
+  //   imageSrc: "/smile_two.jpeg",
+  //   href: "/pictures/smile_two.jpeg",
+  // },
   {
     name: "백합(우아한 그리움), 58.0 × 43.0cm Watercolor",
     imageSrc: "/beauty_miss.jpg",

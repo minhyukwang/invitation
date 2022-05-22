@@ -76,16 +76,16 @@ const Picture: NextPage = () => {
   const imageObj = imageArr[0];
   return (
     <>
-      <div className=" -mt-12 flex h-screen items-center justify-center">
-        <div className="h-72 w-full">
+      <div className="px-4 mt-10 mb-10 flex  items-center justify-center ">
+        <div className="h-72">
           <Image
             src={location}
             alt="Picture of the author"
-            width={750}
-            height={535}
+            width={1350}
+            height={700}
           />
-          <div className="px-4">
-            <span className="text-justify text-sm italic text-gray-500">
+          <div className=" ">
+            <span className="text-justify text-sm italic text-gray-500 ">
               {imageObj != null ? imageObj.name : ""}
             </span>
             <p className="text-sm mt-2 font-light text-justify text-slate-900">
