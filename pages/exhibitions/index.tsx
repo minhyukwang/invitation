@@ -17,11 +17,11 @@ const Exhibitions: NextPage = () => {
           />
         </div>
         <div className="flex-col pt-5 py-6">
-          <div className="flex">
-            <div className="text-gray-900 font-bold text-xl">정원</div>
+          
+            <div className="font-['font-AlegreyaSans'] font-bold	 text-gray-800 text-xl">GARDEN(정원)</div>
             <div className="ml-2 mt-0.5 text-gray-700 font-medium">
               제1회 김나미 개인전
-            </div>
+            
           </div>
           <div className="flex-col pt-5 py-6">
             <div>성산아트홀 제6전시실</div>
