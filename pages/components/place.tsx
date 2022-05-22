@@ -36,7 +36,7 @@ export default function Place() {
             일반버스 : 100, 103, 104, 105, 111, 113, 116
           </span>
           <span className="text-justify ml-2 text-gray-700">
-            좌석버스 : 700,703,710
+            좌석버스 : 700, 703, 710
           </span>
           <span className="text-justify mt-2 ml-2 font-semibold text-gray-800">
             창원-진해
