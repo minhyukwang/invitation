@@ -7,36 +7,14 @@ const Contact: NextPage = () => {
   return (
     <div>
       <Nevigator />
-      <div className="max-w-2xl mx-auto py-20 px-20 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-2xl lg:px-8 lg:grid-cols-2">
-        <div className="">
-          <div className="h-32 w-32 rounded-full bg-slate-500 overflow-hidden ">
-            <Image
-              src="/profile3.jpg"
-              alt="Picture of the author"
-              width={200}
-              height={200}
-              className="w-full h-full"
-            ></Image>
-          </div>
-          <div className="mt-3">
-            <span className="py-3 text-slate-700 text-sm">
-              김나미(NAMI KIM)
-            </span>
-          </div>
+      <div className="max-w-2xl mx-auto ml-1 py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        <div>
+          <div className="py-3 text-gray-800 font-bold text-xl">김나미</div>
+          <div className="text-gray-700 font-medium text-l">NAMI KIM</div>
         </div>
-        <div className="flex-col ">
-          <div className="mb-4">
-            <div className="mr-1 text-gray-700 text-sm">출생 : 경남 산청</div>
-            <div className="mr-1 text-gray-700 text-sm">
-              학력 : 한국방송통신대학교 국어국문학과
-            </div>
-            <div className="mr-1 text-gray-700 text-sm">개인전 : 1회</div>
-            <div className="mr-1 text-gray-700 text-sm">
-              수상 : 2020 경상남도전 입상외 다수
-            </div>
-          </div>
+        <div className="flex-col pt-20 py-6">
           <div className="flex">
-            <div className="mr-1 text-gray-700 text-sm">e-mail</div>
+            <div className="mr-1 text-gray-700 font-medium">e-mail</div>
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -51,8 +29,8 @@ const Contact: NextPage = () => {
             treenami@naver.com
           </div>
 
-          {/* <div className="flex"> */}
-          {/* <div className="mr-1 text-gray-700 font-medium">phone </div>
+          {/* <div className="flex">
+            <div className="mr-1 text-gray-700 font-medium">phone </div>
             <svg
               className="w-6 h-6"
               fill="currentColor"

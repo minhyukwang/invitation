@@ -2,34 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 const callouts = [
   {
-    name: "백합(우아한 그리움), 58.0 × 43.0cm Watercolor",
-    imageSrc: "/beauty_miss.jpg",
-    href: "/pictures/beauty_miss.jpg",
-  },
-  {
     name: "사랑인 듯, 86.0 × 67.0cm Watercolor",
     imageSrc: "/cuty_love.jpg",
     href: "/pictures/cuty_love.jpg",
   },
   {
-    name: "러브 레터, 55.5×40.0cm Watercolor",
-    imageSrc: "/likedream.jpg",
-    href: "/pictures/likedream.jpg",
-  },
-  {
     name: "5월 부케, 40.0 × 30.0cm Watercolor",
     imageSrc: "/may_princess.jpg",
     href: "/pictures/may_princess.jpg",
-  },
-  {
-    name: "사랑 송이송이, 60.0 × 42.0cm Watercolor",
-    imageSrc: "/lovelove.jpeg",
-    href: "/pictures/lovelove.jpeg",
-  },
-  {
-    name: "대롱대롱, 28.5 × 30.0cm Watercolor",
-    imageSrc: "/daelong.jpeg",
-    href: "/pictures/daelong.jpeg",
   },
   {
     name: "널 기다려, 42.0 × 29.0cm Watercolor",
@@ -43,10 +23,30 @@ const callouts = [
     href: "/pictures/friends.jpeg",
   },
   {
-    name: "기대 둘, 44.0×29.5cm Watercolor",
+    name: "대롱대롱, 28.5 × 30.0cm Watercolor",
+    imageSrc: "/daelong.jpeg",
+    href: "/pictures/daelong.jpeg",
+  },
+  // {
+  //   name: "사랑 송이송이, 60.0 × 42.0cm Watercolor",
+  //   imageSrc: "/lovelove.jpeg",
+  //   href: "/pictures/lovelove.jpeg",
+  // },
+  {
+    name: "미소 둘, 44.0×29.5cm Watercolor",
     imageSrc: "/smile_two.jpeg",
     href: "/pictures/smile_two.jpeg",
   },
+  {
+    name: "백합(우아한 그리움), 58.0 × 43.0cm Watercolor",
+    imageSrc: "/beauty_miss.jpg",
+    href: "/pictures/beauty_miss.jpg",
+  },
+  // {
+  //   name: "러브 레터, 55.5×40.0cm Watercolor",
+  //   imageSrc: "/likedream.jpg",
+  //   href: "/pictures/likedream.jpg",
+  // },
 ];
 
 export default function Main() {
