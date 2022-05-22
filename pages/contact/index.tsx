@@ -8,8 +8,9 @@ const Contact: NextPage = () => {
   return (
     <div>
       <Nevigator />
-      <div className="  max-w-2xl mx-auto ml-1 py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
-        <div>
+      <div className=" justify-center  max-w-2xl mx-auto py-10 px-8 grid items-center grid-cols-1 gap-y-4 gap-x-10 sm:px-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        {/* <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-2 gap-x-2 sm:px-6 lg:max-w-6xl lg:px-8 lg:grid-cols-2"> */}
+        <div className="lg:ml-[380px]  xl:ml-[460px]  2xl:ml-[600px]">
           <div className="py-3 text-gray-800 font-bold text-xl">김나미</div>
           <div className="text-gray-700 font-medium text-l">NAMI KIM</div>
         </div>
