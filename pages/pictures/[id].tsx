@@ -49,13 +49,15 @@ const callouts = [
   },
   {
     name: "널 기다려, 42.0 × 29.0cm Watercolor",
-    description: "",
+    description:
+      "마른 탱자나무 가시같던 냉 바람이 쫓겨나고 언 땅을 헤지고 새싹이 돋아나는 이른 봄날. 누구보다 먼저 핑크빛 작은 입술을 내미는 노루귀는 넘 반가운 맘에 고개를 숙여 절을해야 느낄수 있다. 작은 바람에도 한들한들 내가 아닌 다른 이를 기다리고 있다고 말하는것 같다.",
     imageSrc: "/wait_for_you.jpeg",
     href: "/pictures/wait_for_you.jpeg",
   },
   {
     name: "친구의 향기, 41.0 × 26.0cm Watercolor",
-    description: "",
+    description:
+      "꿈으로 가득했던 20대를 같이 하다. 30년후에야 다시 만난 오랜 친구. 어제 본듯 무심히 '잘지냈어?' '응'  한 마디로 말할수 없는 세월을 말하지 않아도 알 듯 한 시간들. 찬 바람이래야 꽃을 피우는 구절초는 오랜 친구의 깊은 마음의 향을 품었다",
     imageSrc: "/friends.jpeg",
     href: "/pictures/friends.jpeg",
   },
