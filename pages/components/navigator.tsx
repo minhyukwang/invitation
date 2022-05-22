@@ -45,12 +45,16 @@ export default function Nevigator() {
                       />
                     </div>
                     <div className="pt-3 -ml-6">
-                      <Image
-                        src="/nami-logo.png"
-                        alt="Picture of the author"
-                        width={130}
-                        height={80}
-                      />
+                      <Link href="/">
+                        <a>
+                          <Image
+                            src="/nami-logo.png"
+                            alt="Picture of the author"
+                            width={130}
+                            height={80}
+                          />
+                        </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="hidden sm:block sm:ml-6 pt-[26px]">

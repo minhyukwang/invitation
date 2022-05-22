@@ -2,12 +2,13 @@ import type { NextPage } from "next";
 import Link from "next/link";
 import Nevigator from "../components/navigator";
 import Image from "next/image";
+import Footer from "../components/footer";
 
 const Contact: NextPage = () => {
   return (
     <div>
       <Nevigator />
-      <div className="max-w-2xl mx-auto ml-1 py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+      <div className="  max-w-2xl mx-auto ml-1 py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
         <div>
           <div className="py-3 text-gray-800 font-bold text-xl">김나미</div>
           <div className="text-gray-700 font-medium text-l">NAMI KIM</div>
@@ -64,6 +65,7 @@ const Contact: NextPage = () => {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
