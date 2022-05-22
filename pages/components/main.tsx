@@ -18,14 +18,14 @@ export default function Main() {
             </div>
             <div className="px-4">
               <span className="text-justify text-sm italic text-gray-500">
-                비비추(정갈한 수줍음)
+                비비추(정갈한 수줍음), 39.5 X 52.5cm Watercolor
+              </span>
+              {/* <span className="text-justify ml-4 text-sm italic text-gray-400">
+                
               </span>
               <span className="text-justify ml-4 text-sm italic text-gray-400">
-                39.5 X 52.5cm
-              </span>
-              <span className="text-justify ml-4 text-sm italic text-gray-400">
-                Watercolor
-              </span>
+                
+              </span> */}
             </div>
           </div>
 
