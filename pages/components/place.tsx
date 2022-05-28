@@ -12,7 +12,10 @@ export default function Place() {
         <Map latitude={35.22943806} longitude={128.68307019} />
         <div className="flex flex-col">
           <span className="text-justify ml-2 font-bold text-lg text-gray-900">
-            2022.06.01 수 - 06.06 월{" "}
+            2022.05.31 화 - 06.06 월{" "}
+          </span>
+          <span className="text-justify ml-2 text-gray-700">
+            평일 10:00-19:00 | 주말 10:00-18:00
           </span>
           <span className="text-justify  mt-2 ml-2 text-gray-700">
             경남 창원시 의창구 중앙대로 181
