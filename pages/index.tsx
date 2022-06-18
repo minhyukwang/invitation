@@ -25,7 +25,7 @@ const Home: NextPage = () => {
       <Nevigator />
       <Main />
       <Detail />
-      <Place />
+      {/* <Place /> */}
       <Footer />
     </div>
   );
