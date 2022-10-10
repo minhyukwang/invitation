@@ -1,3 +1,5 @@
-# TREENAMI Portfolio App
+# TREENAMI Profile Website
 
-Next JS, KakaoMap Link
+ㅇ 주요기능 
+  - Dynamic Website
+  - Open API 
