@@ -1,31 +1,31 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 const callouts = [
   {
-    name: '사랑인 듯, 86.0 × 67.0cm Watercolor',
-    imageSrc: '/cuty_love.jpg',
-    href: '/pictures/cuty_love.jpg',
+    name: "사랑인 듯, 86.0 × 67.0cm Watercolor",
+    imageSrc: "/cuty_love.jpg",
+    href: "/pictures/cuty_love.jpg",
   },
   {
-    name: '5월 부케, 40.0 × 30.0cm Watercolor',
-    imageSrc: '/may_princess.jpg',
-    href: '/pictures/may_princess.jpg',
+    name: "5월 부케, 40.0 × 30.0cm Watercolor",
+    imageSrc: "/may_princess.jpg",
+    href: "/pictures/may_princess.jpg",
   },
   {
-    name: '널 기다려, 42.0 × 29.0cm Watercolor',
-    description: '',
-    imageSrc: '/wait_for_you.jpeg',
-    href: '/pictures/wait_for_you.jpeg',
+    name: "널 기다려, 42.0 × 29.0cm Watercolor",
+    description: "",
+    imageSrc: "/wait_for_you.jpeg",
+    href: "/pictures/wait_for_you.jpeg",
   },
   {
-    name: '친구의 향기, 41.0 × 26.0cm Watercolor',
-    imageSrc: '/friends.jpeg',
-    href: '/pictures/friends.jpeg',
+    name: "친구의 향기, 41.0 × 26.0cm Watercolor",
+    imageSrc: "/friends.jpeg",
+    href: "/pictures/friends.jpeg",
   },
   {
-    name: '대롱대롱, 28.5 × 30.0cm Watercolor',
-    imageSrc: '/daelong.jpeg',
-    href: '/pictures/daelong.jpeg',
+    name: "대롱대롱, 28.5 × 30.0cm Watercolor",
+    imageSrc: "/daelong.jpeg",
+    href: "/pictures/daelong.jpeg",
   },
   // {
   //   name: "사랑 송이송이, 60.0 × 42.0cm Watercolor",
@@ -38,9 +38,9 @@ const callouts = [
   //   href: "/pictures/smile_two.jpeg",
   // },
   {
-    name: '백합(우아한 그리움), 58.0 × 43.0cm Watercolor',
-    imageSrc: '/beauty_miss.jpg',
-    href: '/pictures/beauty_miss.jpg',
+    name: "백합(우아한 그리움), 58.0 × 43.0cm Watercolor",
+    imageSrc: "/beauty_miss.jpg",
+    href: "/pictures/beauty_miss.jpg",
   },
   // {
   //   name: "러브 레터, 55.5×40.0cm Watercolor",
@@ -59,7 +59,7 @@ export default function Main() {
               Collections
             </h4>
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
-              {callouts.map(callout => (
+              {callouts.map((callout) => (
                 <div key={callout.name} className="group relative">
                   <div className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
                     <Link href={callout.href} key={callout.name}>
