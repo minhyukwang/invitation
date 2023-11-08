@@ -1,78 +1,83 @@
 import Image from 'next/image';
 import Link from 'next/link';
 const callouts = [
+  // {
+  //   name: '날 지나칠 순 없어, 27 × 22cm Acrylic on Canvas',
+  //   imageSrc: '/1.jpg',
+  //   href: '/pictures/1.jpg',
+  // },
   {
-    name: '무제1,  × cm Oil Painting',
-    imageSrc: '/1.jpg',
-    href: '/pictures/1.jpg',
-  },
-  {
-    name: '무제2,  × cm Oil Painting',
+    name: '봄날의 입술은 이처럼, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/2.jpg',
     href: '/pictures/2.jpg',
   },
   {
-    name: '무제3,  × cm Oil Painting',
+    name: '누구도 흉내 낼 수 없지, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/3.jpg',
     href: '/pictures/3.jpg',
   },
   {
-    name: '무제4,  × cm Oil Painting',
+    name: '아름다운 가을날은 나로부터, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/4.jpg',
     href: '/pictures/4.jpg',
   },
   {
-    name: '무제5,  × cm Oil Painting',
+    name: '꽃의 여왕은 내면에서, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/5.jpg',
     href: '/pictures/5.jpg',
   },
   {
-    name: '무제6,  × cm Oil Painting',
+    name: '뜨거운 여름의 그 찬란함, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/6.jpg',
     href: '/pictures/6.jpg',
   },
   {
-    name: '무제7,  × cm Oil Painting',
+    name: '날 알고 싶거든 겸손함이, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/7.jpg',
     href: '/pictures/7.jpg',
   },
   {
-    name: '무제8,  × cm Oil Painting',
+    name: '내면의 깊이 그 어디쯤, 24 × 30.5cm Acrylic on Canvas',
     imageSrc: '/8.jpg',
     href: '/pictures/8.jpg',
   },
   {
-    name: '무제9,  × cm Oil Painting',
+    name: '아름다운 가을날은 나로부터 Ⅱ, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/9.jpg',
     href: '/pictures/9.jpg',
   },
   {
-    name: '무제10,  × cm Oil Painting',
+    name: '제목 미정,  cm Acrylic on Canvas',
+    imageSrc: '/16.jpg',
+    href: '/pictures/16.jpg',
+  },
+  {
+    name: '당당함은 이처럼, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/10.jpg',
     href: '/pictures/10.jpg',
   },
   {
-    name: '무제11,  × cm Oil Painting',
+    name: '맑은 맘 닮고 싶은 향, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/11.jpg',
     href: '/pictures/11.jpg',
   },
   {
-    name: '무제12,  × cm Oil Painting',
+    name: '하늘의 별만큼 가슴의 기원들, 30.5 × 24cm Acrylic on Canvas',
     imageSrc: '/12.jpg',
     href: '/pictures/12.jpg',
   },
   {
-    name: '무제13,  × cm Oil Painting',
+    name: '제목 미정, 24 × 30.5cm Acrylic on Canvas',
     imageSrc: '/13.jpg',
     href: '/pictures/13.jpg',
   },
   {
-    name: '무제14,  × cm Oil Painting',
+    name: '추위가 담아준 향, 27 × 22cm Acrylic on Canvas',
     imageSrc: '/14.jpg',
     href: '/pictures/14.jpg',
   },
   {
-    name: '무제15,  × cm Oil Painting',
+    name: '아름다운 가을날은 나로부터 Ⅱ, 27 × 22cm Acrylic on Canvas',
     imageSrc: '/15.jpg',
     href: '/pictures/15.jpg',
   },

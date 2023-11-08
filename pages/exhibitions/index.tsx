@@ -11,7 +11,7 @@ const Exhibitions: NextPage = () => {
       <div className="max-w-2xl mx-auto py-10 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
         <div className="lg:ml-56  xl:ml-64">
           <Image
-            src="/10.jpg"
+            src="/1.jpg"
             alt="Picture of the author"
             width={430}
             height={335}
@@ -28,7 +28,8 @@ const Exhibitions: NextPage = () => {
                 카페 케렌시아
               </a>
             </div>
-            <div>2023.12.01 - 2024.02.01</div>
+            <div>2023.12.01 금 - 2023.12.31 일</div>
+            <div className="text-sm text-gray-500">화요일 휴무</div>
           </div>
         </div>
       </div>

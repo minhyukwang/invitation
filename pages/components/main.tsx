@@ -10,7 +10,7 @@ export default function Main() {
 
             <div className="mt-3 px-4">
               <Image
-                src="/sisun/10.jpg"
+                src="/1.jpg"
                 alt="Picture of the author"
                 width={1000}
                 height={700}
@@ -18,7 +18,7 @@ export default function Main() {
             </div>
             <div className="px-4">
               <span className="text-justify text-sm italic text-gray-500">
-                무제, X cm Oil painting
+                날 지나칠 순 없어 27 × 22cm Acrylic on Canvas
               </span>
               {/* <span className="text-justify ml-4 text-sm italic text-gray-400">
                 
