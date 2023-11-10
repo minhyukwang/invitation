@@ -1,19 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-};
+// next.config.js
+const withImages = require('next-images');
 
-module.exports = nextConfig;
-
-// module.exports = {
-//   async rewrites() {
-//     if (process.env.NODE_ENV !== "production") {
-//       return [
-//         {
-//           destination: process.env.DESTINATION_URL,
-//           source: process.env.SOURCE_PATH,
-//         },
-//       ];
-//     }
-//   },
-// };
+module.exports = withImages({
+    /* config options here */
+});
