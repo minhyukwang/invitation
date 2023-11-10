@@ -9,8 +9,8 @@ const MyLoading = () => {
             src="/loading.gif"
             alt="New"
             className="w-auto h-[300px] justify-items-center object-cover"
-            width={100}
-            height={100}
+            width={50}
+            height={50}
         />
         {/*<div className="mx-auto text-center space-x-1">*/}
         {/*  <div className="inline-block w-5 h-5 bg-amber-200 rounded-full animate-loading-spinner" />*/}
