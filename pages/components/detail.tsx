@@ -93,7 +93,7 @@ export default function Main() {
                             {callouts.map(callout => (
                                 <div key={callout.name} className="group relative">
                                     <div
-                                        className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
+                                        className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
                                         <Link href={callout.href} key={callout.name}>
                                             <a>
                                                 {/* Use the 'Image' component from 'next/optimized-images' */}

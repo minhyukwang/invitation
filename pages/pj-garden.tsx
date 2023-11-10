@@ -130,7 +130,7 @@ const Garden: NextPage = () => {
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map(callout => (
                 <div key={callout.name} className="group relative">
-                  <div className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
+                  <div className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
                     <Link href={callout.href} key={callout.name}>
                       <a>
                         <Image
