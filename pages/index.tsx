@@ -1,9 +1,9 @@
-import type {NextPage} from 'next';
-import Nevigator from './components/navigator';
-import Main from './components/main';
-import Detail from './components/detail';
-import Footer from './components/footer';
-import Place from "./components/place";
+import type { NextPage } from 'next';
+import Nevigator from './components/Navigator';
+import Main from './components/Main';
+import Detail from './components/Detail';
+import Footer from './components/Footer';
+import Place from './components/Place';
 
 /* This example requires Tailwind CSS v2.0+ */
 
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <Nevigator />
       <Main />
       <Detail />
-       <Place />
+      <Place />
       <Footer />
     </div>
   );

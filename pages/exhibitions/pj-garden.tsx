@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
-import Nevigator from './components/navigator';
-import Main from './components/main';
-import Detail from './components/detail';
-import Footer from './components/footer';
+import Nevigator from '../components/Navigator';
+import Main from '../components/Main';
+import Detail from '../components/Detail';
+import Footer from '../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 

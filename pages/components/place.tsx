@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Map from "./map";
+import Image from 'next/image';
+import Map from './Map';
 export default function Place() {
   return (
     <div>
@@ -9,21 +9,25 @@ export default function Place() {
         </h4>
       </div>
       <div className="max-w-2xl mx-auto py-4 px-6 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 lg:max-w-6xl lg:px-8 lg:grid-cols-2">
-        <Map latitude={35.22943806} longitude={128.68307019} />
+        <Map latitude={35.24878468606972} longitude={128.65466469859615} />
         <div className="flex flex-col">
           <span className="text-justify ml-2 font-bold text-lg text-gray-900">
-            2022.05.31 화 - 06.06 월{" "}
+            2023.12.01 금 - 12.31 일{' '}
           </span>
           <span className="text-justify ml-2 text-gray-700">
-            평일 10:00-19:00 | 주말 10:00-18:00
+            매일 11:00-24:00
           </span>
-          <span className="text-justify  mt-2 ml-2 text-gray-700">
-            경남 창원시 의창구 중앙대로 181
+          <span className="text-justify ml-2 text-sm text-gray-600">
+            화요일 휴무
           </span>
-          <span className="text-justify ml-2 font-bold text-lg text-gray-900">
-            성산아트홀 제6전시실
+          <span className="text-justify mt-2 ml-2 font-bold text-lg text-gray-900">
+            카페 케렌시아
           </span>
-          <span className="text-justify mt-4 ml-2 text-gray-800">
+          <span className="text-justify  ml-2 text-gray-700">
+            경남 창원시 의창구 지귀로73번길 19 1층
+          </span>
+
+          {/* <span className="text-justify mt-4 ml-2 text-gray-800">
             교통편 안내 🚌
           </span>
           <span className="text-justify mt-2 ml-2 font-semibold text-gray-800">
@@ -49,7 +53,7 @@ export default function Place() {
           </span>
           <span className="text-justify ml-2 text-gray-700">
             좌석버스 : 751, 752
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

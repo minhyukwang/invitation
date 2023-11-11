@@ -1,9 +1,8 @@
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import MyLoading from "../components/MyLoading";
-
+import MyLoading from '../components/MyLoading';
 
 const callouts = [
   {
@@ -173,7 +172,7 @@ const Picture: NextPage = () => {
   const router = useRouter();
   const { id } = router.query;
   const location = `/${id}`;
-  const imageArr = callouts.filter((callout) => callout.imageSrc === location);
+  const imageArr = callouts.filter(callout => callout.imageSrc === location);
   const imageObj = imageArr[0];
 
   // 이미지 로딩 상태를 관리하는 state
@@ -194,36 +193,37 @@ const Picture: NextPage = () => {
   }, [location, setLoading]);
 
   return (
-      <>
-        <div className="px-2 -mt-32 flex h-screen items-center justify-center">
-          <div className="mt-4 h-auto max-w-screen-md">
-            {loading ? (
-                // 로딩 중일 때 로딩바를 표시
-                <MyLoading/>
-            ) : (
-                // 로딩이 완료되면 이미지를 표시
-               <></>
-            )}
-            <Image
-                src={location}
-                alt="Picture of the author"
-                width={1300}
-                height={800}
-                onLoad={() => handleImageLoad()} // 이미지 로딩 완료 시 호출되는 콜백
-                loading="eager" // 혹은 "lazy" 등으로 설정
-
-            />
-            <div className=" ">
+    <>
+      <div className="px-2 -mt-20 flex h-screen items-center justify-center">
+        <div className="mt-4 h-auto max-w-screen-md">
+          {loading ? (
+            // 로딩 중일 때 로딩바를 표시
+            <MyLoading />
+          ) : (
+            // 로딩이 완료되면 이미지를 표시
+            <></>
+          )}
+          <Image
+            src={location}
+            alt="Picture of the author"
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: '100%', height: 'auto' }}
+            onLoad={() => handleImageLoad()} // 이미지 로딩 완료 시 호출되는 콜백
+            loading="eager" // 혹은 "lazy" 등으로 설정
+          />
+          <div className=" ">
             <span className="text-justify text-sm italic text-gray-500 ">
               {imageObj != null ? imageObj.name : ''}
             </span>
-              <p className="text-sm mt-2 font-light text-justify text-slate-900">
-                {imageObj != null ? imageObj.description : ''}
-              </p>
-            </div>
+            <p className="text-sm mt-2 font-light text-justify text-slate-900">
+              {imageObj != null ? imageObj.description : ''}
+            </p>
           </div>
         </div>
-      </>
+      </div>
+    </>
   );
 };
 

@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
-import Link from "next/link";
-import Nevigator from "../components/navigator";
-import Image from "next/image";
-import Footer from "../components/footer";
+import type { NextPage } from 'next';
+import Link from 'next/link';
+import Nevigator from '../components/Navigator';
+import Image from 'next/image';
+import Footer from '../components/Footer';
 
 const Contact: NextPage = () => {
   return (

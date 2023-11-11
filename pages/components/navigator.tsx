@@ -6,8 +6,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const navigation = [
-  { name: 'PROJECT 시선', href: '/', current: false },
-  { name: 'PROJECT GARDEN', href: '/pj-garden', current: false },
+  { name: 'SISUN', href: '/', current: false },
+  { name: 'GARDEN', href: '/exhibitions/pj-garden', current: false },
   { name: 'EXHIBITIONS', href: '/exhibitions', current: false },
   { name: 'CONTACT', href: '/contact', current: false },
 ];
