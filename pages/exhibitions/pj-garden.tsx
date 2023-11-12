@@ -70,6 +70,7 @@ const Garden: NextPage = () => {
                   alt="Picture of the author"
                   width={415}
                   height={545}
+                  objectFit="contain"
                 />
               </div>
               <div className="px-4">
@@ -130,14 +131,17 @@ const Garden: NextPage = () => {
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map(callout => (
                 <div key={callout.name} className="group relative">
-                  <div className="relative w-full h-80 bg-white rounded-lg cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
+                  <div className="relative w-full h-80 bg-white cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
                     <Link href={callout.href} key={callout.name}>
                       <a>
                         <Image
                           src={callout.imageSrc}
                           alt=""
-                          width="700"
-                          height="650"
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: '100%', height: 'auto' }}
+                          objectFit="contain"
                           // className="w-full h-full object-center object-cover"
                         />
                       </a>
