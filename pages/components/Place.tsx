@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Map from './Map';
+
 export default function Place() {
   return (
     <div>
@@ -57,5 +57,6 @@ export default function Place() {
         </div>
       </div>
     </div>
+
   );
 }
