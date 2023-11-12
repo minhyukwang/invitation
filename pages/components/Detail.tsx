@@ -91,7 +91,8 @@ export default function Main() {
             <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
               {callouts.map(callout => (
                 <div key={callout.name} className="group relative">
-                  <div className="relative w-full h-auto bg-white cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
+                  {/* <div className="relative w-full h-auto bg-white cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1"> */}
+                  <div className="relative w-auto h-auto bg-white cursor-pointer overflow-hidden sm:aspect-w-2 lg:aspect-w-1 lg:aspect-h-1">
                     <Link href={callout.href} key={callout.name}>
                       <a>
                         {/* Use the 'Image' component from 'next/optimized-images' */}
@@ -102,6 +103,7 @@ export default function Main() {
                           height={0}
                           sizes="100vw"
                           style={{ width: '100%', height: 'auto' }}
+                          objectFit="contain"
                           // Other props as needed
                         />
                       </a>

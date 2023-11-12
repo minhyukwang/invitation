@@ -11,9 +11,10 @@ export default function Main() {
               <Image
                 src="/1.jpg"
                 alt="Picture of the author"
-                width={0}
-                height={0}
+                width="270"
+                height="220"
                 sizes="100vw"
+                objectFit="contain"
                 // style={{ width: '100%', height: 'auto' }}
               />
             </div>
