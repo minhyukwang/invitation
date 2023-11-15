@@ -43,7 +43,7 @@ const callouts = [
     href: '/pictures/9.jpg',
   },
   {
-    name: '제목 미정,  cm Acrylic on Canvas',
+    name: '가냘픔 속 우아함, 24 x 30.5cm Acrylic on Canvas',
     imageSrc: '/16.jpg',
     href: '/pictures/16.jpg',
   },
@@ -63,7 +63,7 @@ const callouts = [
     href: '/pictures/12.jpg',
   },
   {
-    name: '제목 미정, 24 × 30.5cm Acrylic on Canvas',
+    name: '더 할 나위 없는 신비로움이, 24 × 30.5cm Acrylic on Canvas',
     imageSrc: '/13.jpg',
     href: '/pictures/13.jpg',
   },

@@ -18,7 +18,12 @@ const Exhibitions: NextPage = () => {
           />
         </div>
         <div className="flex-col pt-5 py-6">
-          <div className="font-bold text-gray-800 text-xl">시선</div>
+          <div className="flex">
+            <div className="font-bold text-gray-800 text-xl">시선</div>
+            <p className="ml-2 mt-0.5 bg-black text-white w-20 h-6 rounded-full text-center">
+              현재전시
+            </p>
+          </div>
           <div className="ml-2 mt-0.5 text-gray-700 font-medium">
             제2회 김나미 개인전
           </div>
@@ -29,7 +34,6 @@ const Exhibitions: NextPage = () => {
               </a>
             </div>
             <div>2023.12.01 금 - 2023.12.31 일</div>
-            <div className="text-sm text-gray-500">화요일 휴무</div>
           </div>
         </div>
       </div>

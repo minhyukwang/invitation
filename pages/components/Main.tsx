@@ -26,7 +26,13 @@ export default function Main() {
           </div>
 
           <div className="mt-10 px-4">
-            <h4 className="font-bold text-gray-800 text-xl">시선</h4>
+            <div className="flex">
+              <h4 className="font-bold text-gray-800 text-xl">시선</h4>
+              <p className="ml-2 mt-0.5 bg-black text-white w-20 h-6 rounded-full text-center">
+                전시예정
+              </p>
+            </div>
+
             <div className="mt-0.5 text-gray-700 font-medium">
               제2회 김나미 개인전
             </div>
