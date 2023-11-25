@@ -33,7 +33,7 @@ const ScrollToTopButton: React.FC = () => {
     <div>
       {isVisible && (
         <button
-          className="w-10 h-10 bg-gray-200 rounded-full"
+          className="md:hidden w-10 h-10 bg-gray-100 rounded-full"
           onClick={scrollToTop}
           style={{
             position: 'fixed',
