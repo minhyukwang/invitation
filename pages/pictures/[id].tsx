@@ -36,7 +36,7 @@ const callouts = [
     href: '/pictures/5.jpg',
   },
   {
-    name: '뜨거운 여름의 그 찬란함, 30.5 × 24cm Acrylic on Canvas',
+    name: '뜨거운 여름의 그 찬란함, 30.5 × 24cm Acrylic on Canvas 🔴',
     description: '',
     imageSrc: '/6.jpg',
     href: '/pictures/6.jpg',
