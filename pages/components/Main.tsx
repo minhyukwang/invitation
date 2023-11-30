@@ -29,7 +29,7 @@ export default function Main() {
             <div className="flex">
               <h4 className="font-bold text-gray-800 text-xl">시선</h4>
               <p className="ml-2 mt-0.5 bg-black text-white w-20 h-6 rounded-full text-center">
-                전시예정
+                전시중
               </p>
             </div>
 

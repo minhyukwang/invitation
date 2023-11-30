@@ -21,7 +21,7 @@ const Exhibitions: NextPage = () => {
           <div className="flex">
             <div className="font-bold text-gray-800 text-xl">시선</div>
             <p className="ml-2 mt-0.5 bg-black text-white w-20 h-6 rounded-full text-center">
-              전시예정
+              전시중
             </p>
           </div>
           <div className="ml-2 mt-0.5 text-gray-700 font-medium">
