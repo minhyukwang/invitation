@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const callouts = [
   {
-    name: '봄날의 입술은 이처럼, 30.5 × 24cm Acrylic on Canvas',
+    name: '봄날의 입술은 이처럼, 30.5 × 24cm Acrylic on Canvas 🔴',
     imageSrc: '/2.jpg',
     href: '/pictures/2.jpg',
   },
   {
-    name: '누구도 흉내 낼 수 없지, 30.5 × 24cm Acrylic on Canvas',
+    name: '누구도 흉내 낼 수 없지, 30.5 × 24cm Acrylic on Canvas 🔴',
     imageSrc: '/3.jpg',
     href: '/pictures/3.jpg',
   },
@@ -38,7 +38,7 @@ const callouts = [
     href: '/pictures/8.jpg',
   },
   {
-    name: '아름다운 가을날은 나로부터 Ⅱ, 30.5 × 24cm Acrylic on Canvas',
+    name: '아름다운 가을날은 나로부터 Ⅱ, 30.5 × 24cm Acrylic on Canvas 🔴',
     imageSrc: '/9.jpg',
     href: '/pictures/9.jpg',
   },
@@ -48,7 +48,7 @@ const callouts = [
     href: '/pictures/16.jpg',
   },
   {
-    name: '당당함은 이처럼, 30.5 × 24cm Acrylic on Canvas',
+    name: '당당함은 이처럼, 30.5 × 24cm Acrylic on Canvas 🔴',
     imageSrc: '/10.jpg',
     href: '/pictures/10.jpg',
   },
