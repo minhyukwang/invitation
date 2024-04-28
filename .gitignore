@@ -34,3 +34,10 @@ yarn-error.log*
 .env
 # typescript
 *.tsbuildinfo
+/.idea/.gitignore
+/.idea/jpa-buddy.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/treenami-profile.iml
+/.idea/vcs.xml
