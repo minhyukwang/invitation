@@ -9,7 +9,7 @@ const navigation = [
   { name: 'SISUN', href: '/', current: false },
   { name: 'GARDEN', href: '/exhibitions/pj-garden', current: false },
   { name: 'EXHIBITIONS', href: '/exhibitions', current: false },
-  { name: 'CONTACT', href: '/contact', current: false },
+  { name: 'ARTIST', href: '/contact', current: false },
 ];
 
 function classNames(...classes: any) {

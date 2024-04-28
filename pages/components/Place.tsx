@@ -20,11 +20,16 @@ export default function Place() {
           <span className="text-justify ml-2 text-sm text-gray-600">
             화요일 휴무
           </span>
-          <span className="text-justify mt-2 ml-2 font-bold text-lg text-gray-900">
-            카페 케렌시아
+          <span className="ml-2 mt-4 hover:text-red-900 font-bold text-lg text-gray-900 cursor-pointer">
+            <a href="https://naver.me/GNyJvcqE" target="__blank">
+              카페 케렌시아
+            </a>
           </span>
           <span className="text-justify  ml-2 text-gray-700">
             경남 창원시 의창구 지귀로73번길 19 1층
+          </span>
+          <span className="text-justify  ml-2 text-gray-700">
+            0507-1340-6630
           </span>
 
           {/* <span className="text-justify mt-4 ml-2 text-gray-800">
@@ -57,6 +62,5 @@ export default function Place() {
         </div>
       </div>
     </div>
-
   );
 }

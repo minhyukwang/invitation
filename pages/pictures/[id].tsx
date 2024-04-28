@@ -36,7 +36,7 @@ const callouts = [
     href: '/pictures/5.jpg',
   },
   {
-    name: '뜨거운 여름의 그 찬란함, 30.5 × 24cm Acrylic on Canvas',
+    name: '뜨거운 여름의 그 찬란함, 30.5 × 24cm Acrylic on Canvas 🔴',
     description: '',
     imageSrc: '/6.jpg',
     href: '/pictures/6.jpg',
@@ -210,6 +210,8 @@ const Picture: NextPage = () => {
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: 'auto' }}
+            // layout="fill"
+            objectFit="contain"
             onLoad={() => handleImageLoad()} // 이미지 로딩 완료 시 호출되는 콜백
             loading="eager" // 혹은 "lazy" 등으로 설정
           />
