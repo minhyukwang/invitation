@@ -1,4 +1,4 @@
-import {dummyAllSongList} from "@lib/dummyData";
+import {dummySisunList} from "@lib/dummyData";
 import Painting from "./Painting";
 
 export default function Main() {
@@ -36,16 +36,9 @@ export default function Main() {
                             </a>
                         </p>
                         <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
-                            {dummyAllSongList.map((callout, index) => (
-                                <div key={index} >
+                            {dummySisunList.map((callout, index) => (
+                                <div key={index}>
                                     <Painting name={callout.name} imageSrc={callout.imageSrc} href={callout.href}/>
-                                    <div key={callout.name} className="group relative">
-                                        <div className="mb-4 mt-2">
-                                        <span className="text-justify text-sm italic text-gray-500">
-                                          {callout.name}
-                                        </span>
-                                        </div>
-                                    </div>
                                 </div>
                             ))}
                         </div>

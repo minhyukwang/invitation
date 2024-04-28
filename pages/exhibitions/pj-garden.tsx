@@ -2,7 +2,7 @@ import type {NextPage} from 'next';
 import Nevigator from '../components/Navigator';
 import Image from 'next/image';
 import Painting from "../components/Painting";
-import {dummyAllSongList} from "@lib/dummyData";
+import {dummyGardenList} from "@lib/dummyData";
 import Footer from "../components/Footer";
 
 
@@ -64,19 +64,13 @@ const Garden: NextPage = () => {
                             Collections
                         </h4>
                         <div className="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
-                            {dummyAllSongList.map(callout => (
-                                <div key={callout.name} className="group relative">
-                                    <div
-                                        className="relative w-full h-80 bg-white cursor-pointer overflow-hidden sm:aspect-w-2 sm:h-72 lg:aspect-w-1 lg:aspect-h-1">
-                                        <Painting name={callout.name} imageSrc={callout.imageSrc} href={callout.href}/>
-                                        <div className="mb-4 mt-2 ">
-                                        <span className="text-justify text-sm italic text-gray-500">
-                                          {callout.name}
-                                        </span>
-                                        </div>
-                                    </div>
+                            {dummyGardenList.map(((callout, index) => (
+                                <div key={index} className="group relative">
+                                        <Painting name={callout.name}
+                                                  imageSrc={callout.imageSrc}
+                                                  href={callout.href}/>
                                 </div>
-                            ))}
+                            )))}
                         </div>
                     </div>
                 </div>
